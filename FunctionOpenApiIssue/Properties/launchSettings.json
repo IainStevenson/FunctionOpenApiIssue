@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FunctionOpenApiIssue": {
+      "commandName": "Project",
+      "commandLineArgs": "host start --useHttps --cert \"localhost.pfx\" --password \" \""
+    }
+  }
+}
