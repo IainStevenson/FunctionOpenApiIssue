@@ -69,6 +69,13 @@ Functions:
         RenderSwaggerUI: [GET] https://localhost:7071/api/swagger/ui
 
 ```
+
+The issue I found is that Only the GET methods surfaces in the Swagger document , but both methods work. 
+
+From my POV, either the Visual Studio Azure Function app template is providing incorrect OpenAPI setup for the template function, or the OpenAPI package is failing to operate correctly, or my understanding is completely wrong.
+
+Please advise.
+
 # Expectations
 
 I would expect the Swagger UI to show both the GET and the POST methods, and allow them to be tried out.
